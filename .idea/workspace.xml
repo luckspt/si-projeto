@@ -5,11 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d45a46e-928e-47d9-b7f9-2d8d273975b8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/P1/Enunciado copy.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/P1/projeto.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/P1/projeto_estado.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/si-projeto.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/si-projeto.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/P1/Enunciado.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/P1/Enunciado.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/P1/SI-proj1-XX.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/P1/SI-proj1-XX.ipynb" afterDir="false" />
     </list>
@@ -91,6 +86,7 @@
       <workItem from="1648058834408" duration="12000" />
       <workItem from="1648302674591" duration="3856000" />
       <workItem from="1648306629462" duration="1238000" />
+      <workItem from="1648396475686" duration="14000" />
     </task>
     <servers />
   </component>

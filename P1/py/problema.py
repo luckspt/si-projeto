@@ -2,7 +2,6 @@ from estado import PacmanEstado
 
 
 from searchPlus import *
-import time as t
 from typing import Tuple, List
 
 class PacmanPastilhas(Problem):
@@ -10,8 +9,7 @@ class PacmanPastilhas(Problem):
         super().__init__(PacmanEstado(pacman, gums), goal)
         self.dim = dim
         self.obstacles = obstacles
-        self.timeStart = t.time() # TODO qtd jogadas
-        self.directions = {"N":(0, -1), "W":(-1, 0), "E":(1, 0),"S":(0, 1)}
+        self.directions = {"N": (0, -1), "W": (-1, 0), "E": (1, 0), "S": (0, 1)}
 
     def actions(self, state: PacmanEstado) -> List[str]:
         """

@@ -108,7 +108,7 @@ def iterative_deepening_plus_graph_search(problem):
 
 # Testes
 print('BFS Árvore:')
-testa(prob, breadth_first_tree_search)
+# testa(prob, breadth_first_tree_search)
 """
 = = = = = = = = = = = 
 = @ + . . . . . . . = 
@@ -140,7 +140,7 @@ na nova célula, portanto, como o dicionário mudou, o estado também será dife
 """
 
 print('DFS Progressivo Árvore:')
-testa(prob, iterative_deepening_search)
+# testa(prob, iterative_deepening_search)
 """
 = = = = = = = = = = = 
 = @ + . . . . . . . = 
@@ -166,7 +166,7 @@ comporta-se como uma procura em largura.
 """
 
 print('Custo Uniforme Árvore:')
-testa(prob, uniform_cost_tree_search)
+# testa(prob, uniform_cost_tree_search)
 """
 = = = = = = = = = = = 
 = @ N . . . . . . . = 
@@ -238,7 +238,7 @@ Time: 0.004510387996560894s
 """
 
 print('BFS Grafo:')
-testa(prob, breadth_first_graph_search)
+# testa(prob, breadth_first_graph_search)
 """
 = = = = = = = = = = = 
 = @ + . . . . . . . = 

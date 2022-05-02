@@ -60,12 +60,6 @@ def diff_lin_col(n: int, X: str, a: int, Y: str, b: int):  # X Y -> Vars ; a b->
         return a != b
     else:
         return True
-
-def maior(x: int, y: int) -> bool:
-    return x > y
-
-def menor(x: int, y: int) -> bool:
-    return x < y
         
 def futoshiki(n: int = 3, quadrados_preenchidos: Dict[str, int] = None, maiores: Dict[str, List[str]] = None) -> CSP:
     """
@@ -109,28 +103,15 @@ def futoshiki(n: int = 3, quadrados_preenchidos: Dict[str, int] = None, maiores:
         map(lambda k: f'{k}: {" ".join(map(str, vizinhos[k]))}', vizinhos))
     vizinhos = parse_neighbors(vizinhos)
 
-    def restricoes(X, a, Y, b):
-        maior = None
-        menor = None
-        #print(list(maiores.keys()))
-        #print(list(maiores.values()))
-       # print(X in list(maiores.keys()))
-       # print(type(X))
+    def restricoes(X: str, a: int, Y: str, b: int):
+        if X in maiores:
+            if Y in maiores[X] and a <= b:
+                return False
+        elif Y in maiores:
+            if X in maiores[Y] and b <= a:
+                return False
 
-        if X in list(maiores.keys()):
-            print("a")
-            if Y in maiores[X]:
-                print("b")
-                maior = int(a)
-                menor = int(b)
-        if Y in list(maiores.keys()):
-            if X in maiores[Y]:
-                maior = int(b)
-                menor = int(a)
-        if maior != None and menor != None and maior<=menor:
-            return False
-
-        return diff_lin_col(n, str(X), str(a), str(Y), str(b))
+        return diff_lin_col(n, X, a, Y, b)
 
     return CSP(variaveis, dominios, vizinhos, restricoes)
 

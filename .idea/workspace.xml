@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d45a46e-928e-47d9-b7f9-2d8d273975b8" name="Changes" comment="aprofundamento progressivo">
-      <change afterPath="$PROJECT_DIR$/P1/.ipynb_checkpoints/Enunciado-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/P1/SI-proj1-21.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/P1/SI-proj1-21.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P1/Enunciado.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/P1/Enunciado.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P1/SI-proj1-21.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/P1/SI-proj1-21.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P2/SI-proj2-21.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/P2/SI-proj2-21.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +95,7 @@
       <workItem from="1648679020039" duration="177000" />
       <workItem from="1648758318776" duration="8000" />
       <workItem from="1648818391497" duration="66000" />
+      <workItem from="1651523228147" duration="6000" />
     </task>
     <task id="LOCAL-00001" summary="aprofundamento progressivo">
       <created>1648677720025</created>

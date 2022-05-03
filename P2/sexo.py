@@ -122,3 +122,18 @@ p = futoshiki(n, maiores=maiores)
 r = backtracking_search(p)
 print(r)
 visualize_futoshiki(r, maiores=maiores)
+
+
+#################################TEXTO#################################
+
+"""
+Descreva aqui, textualmente, como decidiu representar as variáveis, domínios, vizinhos e restrições em Python;
+
+
+**Constraint Satisfaction Problems (CSP)**
+- **Variáveis** - Lista contendo todos os indices (de 0 a n*n) correspondentes a cada espaço do quadrado latino;
+- **Domínios** - Lista contendo listas de ints (de 1 a n) correspondentes a cada espaço do quadrado latino. Representam os valores que poderão estar contidos no quadrado latino, ou seja, valores possíveis das variáveis;
+- **Vizinhos** - Dicionário cujas chaves representam uma posição no quadrado latino e os seus respetivos valores serão os números que se encontram na mesma linha e coluna;
+- **Restrições** - Função que verifica se dois valores em dadas posições do quadrado latino se encontram na mesma linha/coluna e em caso afirmativo se são iguais;
+"""
+
